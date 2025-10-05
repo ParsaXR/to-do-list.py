@@ -3,7 +3,7 @@ def save_task(task):
     with open("tasks.txt", "a") as file:
         file.write(task + "\n")
         print("task added☑️")
-        PRINT("HELLO WORLD")
+       
 
 def load_task():
     with open("tasks.txt", "r") as file:
